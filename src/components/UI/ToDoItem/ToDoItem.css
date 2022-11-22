@@ -1,0 +1,49 @@
+.todo-item {
+  width: 100%;
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  box-sizing: border-box;
+}
+
+.todo-item_active {
+  background-color: yellowgreen !important;
+}
+
+.todo-item_overdue {
+  background-color: rgb(231, 166, 37);
+}
+
+.todo-item__container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.todo-item__buttons-container {
+  display: flex;
+  gap: 1rem;
+}
+
+.todo-item__title {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.todo-item__button {
+  cursor: pointer;
+}
+
+.todo-item__date-span {
+  font-weight: 700;
+}
+
+.todo-item__files {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+.todo-item__add-files {
+  display: flex;
+}
